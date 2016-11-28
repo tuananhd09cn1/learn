@@ -12,3 +12,4 @@
 # http://stackoverflow.com/questions/30107459/how-to-do-preloader-for-ng-view-in-angular-js
 # https://chieffancypants.github.io/angular-loading-bar/#
 # http://tympanus.net/Development/InteractiveColoringConcept/
+# http://io.livecode.ch/learn/namin/unsound#46b717349115fa58e2090cab119da61c
