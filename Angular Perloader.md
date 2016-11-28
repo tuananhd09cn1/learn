@@ -11,3 +11,4 @@
 # http://victorbjelkholm.github.io/ngProgress/
 # http://stackoverflow.com/questions/30107459/how-to-do-preloader-for-ng-view-in-angular-js
 # https://chieffancypants.github.io/angular-loading-bar/#
+# http://tympanus.net/Development/InteractiveColoringConcept/
