@@ -13,3 +13,5 @@
 # https://chieffancypants.github.io/angular-loading-bar/#
 # http://tympanus.net/Development/InteractiveColoringConcept/
 # http://io.livecode.ch/learn/namin/unsound#46b717349115fa58e2090cab119da61c
+# http://www.videogular.com/
+# http://perminder-klair.github.io/angular-soundmanager2/
