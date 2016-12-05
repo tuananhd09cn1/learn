@@ -31,3 +31,4 @@ https://chieffancypants.github.io/angular-loading-bar/#
 https://www.bignerdranch.com/blog/music-visualization-with-d3-js/
 https://dzone.com/articles/exploring-html5-web-audiohttps://dzone.com/articles/exploring-html5-web-audio
 https://medium.com/@_2988845157752/how-to-develop-an-im-bot-for-facebook-messenger-b09cb4372538#.ytbxuhhg2
+Face Detection in JavaCV using haar classifier
