@@ -16,3 +16,4 @@ https://www.npmjs.com/package/grunt-crawl
 http://odino.org/how-to-make-your-javascript-apps-seo-friendly/
 http://www.ocpsoft.org/java/seo-friendly-angularjs-with-html5-pushstate-rewrite-and-twelve-lines-of-code/
 http://www.doz.com/search-engine/angularjs-index-seo
+https://www.v9seo.com/blog/2016/07/08/seos-need-know-about-angularjs-sites/
