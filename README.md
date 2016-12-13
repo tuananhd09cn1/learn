@@ -8,3 +8,4 @@ https://www.phpclasses.org/blog/post/493-php-performance-evolution.html
 
 #http://stackoverflow.com/questions/17080494/using-grunt-server-how-can-i-redirect-all-requests-to-root-url
 #http://www.williambrownstreet.net/blog/2014/04/faster-angularjs-rendering-angularjs-and-reactjs/
+#TimerCheck.io
