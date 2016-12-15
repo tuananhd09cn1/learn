@@ -85,35 +85,22 @@ https://www.phpclasses.org/blog/post/493-php-performance-evolution.html
 }]);
 
 https://taskboard.matthewross.me/
-https://kanboard.net
-public List<String> loadCLass(){
-		//no paramater
-		Class noparams[] = {};
-
-		//String parameter
-		Class[] paramString = new Class[1];
-		paramString[0] = String.class;
-
-		//int parameter
-		Class[] paramInt = new Class[1];
-		paramInt[0] = Integer.TYPE;
-		List<String> test;
-		try{
-		    //load the AppTest at runtime
-			Class cls = Class.forName("com.samsung.svmc.pads.config.AppTest");
-			Constructor<?> cons = cls.getConstructor(int.class);
-			Object obj = cons.newInstance(3123);
-			//call the printItString method, pass a String param
-			Method method = cls.getDeclaredMethod("printItString", paramString);
-			 test = (List<String>)method.invoke(obj, new String("mkyong"));
-
-	
-			return test;
-
-		}catch(Exception ex){
-			ex.printStackTrace();
-		}
-		return null;
-	}
-	https://allotment.digital/learn/technical-seo/how-search-engines-work/indexing/
+LayoutDirectives.directive('checkImage', function($http) {
+    return {
+        restrict: 'A',
+        link: function(scope, element, attrs) {
+            attrs.$observe('ngSrc', function(ngSrc) {
+              if (ngSrc!=undefined){
+                $http.get(ngSrc).success(function(){
+                }).error(function(){
+                  element.attr('src', 'avatar/No_image_available.svg'); // set default image
+                });
+              } else {
+                  element.attr('src', 'avatar/No_image_available.svg'); // set default image
+              }
+            });
+        }
+    };
+});
+https://allotment.digital/learn/technical-seo/how-search-engines-work/indexing/
 http://blog.studytube.nl/
