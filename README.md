@@ -110,3 +110,31 @@ LayoutDirectives.directive('checkImage', function($http) {
 });
 https://allotment.digital/learn/technical-seo/how-search-engines-work/indexing/
 http://blog.studytube.nl/
+
+@Controller
+public class UploadController {
+	private static Log log = LogFactory.getLog(UploadController.class);
+    @RequestMapping(value = "/api/upload/images")
+    public @ResponseBody void upload(@RequestParam("file") MultipartFile file ) throws IOException {
+    	if (file!=null){
+        byte[] bytes;
+
+        if (!file.isEmpty()) {
+             bytes = file.getBytes();
+            //store file in storage
+        }
+        
+        log.debug(String.format("receive from %s", file.getOriginalFilename()));
+        }
+    }
+}
+
+//    @Bean(name = "multipartResolver")
+//    public CommonsMultipartResolver multipartResolver() {
+//        CommonsMultipartResolver resolver=new CommonsMultipartResolver();
+//        resolver.setDefaultEncoding("utf-8");
+//        resolver.setMaxInMemorySize(5000000);
+//        return resolver;
+//    }
+
+http://websystique.com/springmvc/spring-mvc-4-file-upload-example-using-commons-fileupload/
