@@ -138,3 +138,8 @@ public class UploadController {
 //    }
 
 http://websystique.com/springmvc/spring-mvc-4-file-upload-example-using-commons-fileupload/
+<dependency>
+        	<groupId>commons-fileupload</groupId>
+        	<artifactId>commons-fileupload</artifactId>
+        	<version>1.3.1</version>
+    	</dependency>
