@@ -144,3 +144,4 @@ http://websystique.com/springmvc/spring-mvc-4-file-upload-example-using-commons-
         	<version>1.3.1</version>
     	</dependency>
 https://code.ciphertrick.com/2015/09/21/detect-os-browser-and-device-in-angularjs/
+https://jellekralt.com/2015/08/13/dynamically-load-a-templateurl-in-an-angular-directive/
