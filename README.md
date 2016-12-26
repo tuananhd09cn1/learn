@@ -148,3 +148,4 @@ https://jellekralt.com/2015/08/13/dynamically-load-a-templateurl-in-an-angular-d
 http://sharingbuttons.io/
 http://dontpanic.42.nl/2015/04/cors-with-spring-mvc.html
 https://support.google.com/webmasters/answer/79812
+https://vmdao.wordpress.com/2016/03/21/tong-quat-ve-jpa-java-persistence-api/
