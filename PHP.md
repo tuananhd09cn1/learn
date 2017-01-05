@@ -1,0 +1,28 @@
+# PHP awesome
+
+- https://github.com/ziadoz/awesome-php
+- https://github.com/MaximAbramchuck/awesome-interview-questions
+- https://gist.github.com/messified/6381844
+- https://github.com/developerquestions/php-questions
+- https://github.com/h5bp/Front-end-Developer-Interview-Questions
+- https://github.com/uhub/awesome-php
+- https://gist.github.com/Brammm/7009248
+- CodeIgniter Framework
+- Composer
+- HVMC
+- Backfire.io
+- LAMP
+- LEMP
+- http://overapi.com/php
+# Development Tools
+
+- Vagrant (https://github.com/fideloper/Vaprobash)
+- Capistrano
+- Docker
+
+# Unbuntu
+
+- Vim (https://vim.rtorr.com/)
+- rsync
+- http://www.cheat-sheets.org/saved-copy/ubunturef.pdf
+- https://www.nixtutor.com/linux/all-the-best-linux-cheat-sheets/
