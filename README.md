@@ -1,3 +1,4 @@
+Deep Learning for Self-Driving Cars
   /* Reset error when a new view is loaded */
 		$rootScope.$on('$viewContentLoaded', function() {
 			delete $rootScope.error;
