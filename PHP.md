@@ -15,11 +15,24 @@
 - LEMP
 - http://overapi.com/php
 - https://code.tutsplus.com/tutorials/hmvc-an-introduction-and-application--net-11850
+
 # Development Tools
 
 - Vagrant (https://github.com/fideloper/Vaprobash)
-- Capistrano
-- Docker
+- Capistrano (Deploy tools)
+- Docker (Application container)
+
+# Continuous Delivery
+
+- http://codeship.com/
+- https://travis-ci.org/
+- Jenkins
+
+# Version Control System
+
+- GIT (Git flow, git work flow)
+- SVN
+- P4
 
 # Unbuntu
 
