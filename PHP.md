@@ -40,3 +40,7 @@
 - rsync
 - http://www.cheat-sheets.org/saved-copy/ubunturef.pdf
 - https://www.nixtutor.com/linux/all-the-best-linux-cheat-sheets/
+# Webserver
+- Apache2
+ - mod_rewrite (https://mediatemple.net/community/products/dv/204643270/using-htaccess-rewrite-rules) .httacces
+- Nginx
