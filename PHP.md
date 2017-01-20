@@ -64,7 +64,35 @@
 - rsync
 - http://www.cheat-sheets.org/saved-copy/ubunturef.pdf
 - https://www.nixtutor.com/linux/all-the-best-linux-cheat-sheets/
+
 # Webserver
+
 - Apache2
  - mod_rewrite (https://mediatemple.net/community/products/dv/204643270/using-htaccess-rewrite-rules) .httacces
 - Nginx
+
+# Bigdata
+
+-
+
+# Java 8
+
+- Java 8: New features in ConcurrentHashMap [http://www.deadcoderising.com/2016-01-17-java-8-new-features-in-concurrenthashmap/]
+
+# Javascript
+
+- 2016 JavaScript Rising Stars [https://risingstars2016.js.org/#all]
+- Wepack gitbook (http://survivejs.com/webpack/handling-styles/loading/)
+- https://github.com/legomushroom/mojs
+# Mongo DB
+
+- https://snyk.io/blog/mongodb-hack-and-secure-defaults/
+
+# CSS
+- https://yeun.github.io/open-color/
+
+# New DB
+
+- https://www.cockroachlabs.com/
+
+- https://yeun.github.io/open-color/ingredients.html
