@@ -105,4 +105,14 @@
 - https://moz.com/beginners-guide-to-seo/search-engine-tools-and-services
 
 # Git
+
 - Gitea [https://gitea.io/en-US/]
+- http://www.krihelinator.xyz/languages
+
+# IOT
+
+- https://home-assistant.io/components/
+
+# Cloud 
+
+- https://releases.openstack.org/newton/index.html
