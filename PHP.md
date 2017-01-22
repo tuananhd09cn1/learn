@@ -76,7 +76,7 @@
 
 # Bigdata
 
--
+- http://blog.cloudera.com/blog/2014/09/getting-started-with-big-data-architecture/
 
 # Java 8
 
