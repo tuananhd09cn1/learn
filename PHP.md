@@ -116,3 +116,7 @@
 # Cloud 
 
 - https://releases.openstack.org/newton/index.html
+
+# Lavarel
+
+- Lavarel Seed Project [http://laravel-boilerplate.com/start.html]
