@@ -120,3 +120,18 @@
 # Lavarel
 
 - Lavarel Seed Project [http://laravel-boilerplate.com/start.html]
+
+# Seo
+
+- Cost-per-click (CPC) https://support.google.com/adsense/answer/32725?hl=en&ref_topic=1113898
+	
+- WebSEO Tools
+
+ http://www.webseoanalytics.com/
+ http://inet.edu.vn/tin-tuc/2984/google-keyword-tool.html
+ http://seokool.com/3-cach-kiem-tra-thu-hang-tu-khoa-chinh-xac-nhat-tren-google/
+ 
+- Toi uu hoa keyword 
+ https://thietkewebchuanseo.com/kien-thuc-seo_chia-se-kien-thuc/5-cach-tang-thu-hang-tu-khoa-tren-top-google/
+ 
+- Xay dung back link 
