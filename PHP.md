@@ -121,6 +121,8 @@
 
 - Lavarel Seed Project [http://laravel-boilerplate.com/start.html]
 
+# Software Development
+- https://www.linkedin.com/pulse/software-project-team-rolescontinuing-writing-editing-farhana-sharmin
 # Seo
 
 - Cost-per-click (CPC) https://support.google.com/adsense/answer/32725?hl=en&ref_topic=1113898
