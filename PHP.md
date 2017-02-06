@@ -136,3 +136,5 @@
  
 - Xay dung back link 
 - http://neilpatel.com/blog/improve-google-rankings-without-getting-penalized/
+- http://www.mtu.edu/umc/services/digital/seo/
+- https://majestic.com/account/register
