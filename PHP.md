@@ -135,3 +135,4 @@
  https://thietkewebchuanseo.com/kien-thuc-seo_chia-se-kien-thuc/5-cach-tang-thu-hang-tu-khoa-tren-top-google/
  
 - Xay dung back link 
+- http://neilpatel.com/blog/improve-google-rankings-without-getting-penalized/
