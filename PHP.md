@@ -140,3 +140,7 @@
 - http://neilpatel.com/blog/improve-google-rankings-without-getting-penalized/
 - http://www.mtu.edu/umc/services/digital/seo/
 - https://majestic.com/account/register
+- https://support.google.com/webmasters/answer/47334?hl=en
+
+# Search box
+ - https://developers.google.com/search/docs/data-types/sitelinks-searchbox
