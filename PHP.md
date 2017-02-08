@@ -154,3 +154,7 @@
  
   - https://martinfowler.com/articles/201701-event-driven.html
   - https://spring.io/guides/gs/messaging-reactor/
+  
+# Sercurity
+
+- https://jhalderm.com/pub/papers/interception-ndss17.pdf
