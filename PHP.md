@@ -123,11 +123,12 @@
 
 # Software Development
 - https://www.linkedin.com/pulse/software-project-team-rolescontinuing-writing-editing-farhana-sharmin
+
 # Seo
 
 - Cost-per-click (CPC) https://support.google.com/adsense/answer/32725?hl=en&ref_topic=1113898
 	
-- WebSEO Tools
+# WebSEO Tools
 
  http://www.webseoanalytics.com/
  http://inet.edu.vn/tin-tuc/2984/google-keyword-tool.html
@@ -136,11 +137,20 @@
 - Toi uu hoa keyword 
  https://thietkewebchuanseo.com/kien-thuc-seo_chia-se-kien-thuc/5-cach-tang-thu-hang-tu-khoa-tren-top-google/
  
-- Xay dung back link 
+# Xay dung back link 
+
 - http://neilpatel.com/blog/improve-google-rankings-without-getting-penalized/
 - http://www.mtu.edu/umc/services/digital/seo/
 - https://majestic.com/account/register
 - https://support.google.com/webmasters/answer/47334?hl=en
 
 # Search box
+
  - https://developers.google.com/search/docs/data-types/sitelinks-searchbox
+ 
+# Architecture
+
+ + Evetn driven
+ 
+  - https://martinfowler.com/articles/201701-event-driven.html
+  - https://spring.io/guides/gs/messaging-reactor/
