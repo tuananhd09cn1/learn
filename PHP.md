@@ -162,3 +162,4 @@
 # RethinkDB (Realtime DB)
 
 - rethinkdb
+- https://geowarin.github.io/spring-boot-and-rethinkdb.html
