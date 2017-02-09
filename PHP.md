@@ -2,7 +2,8 @@
 
 
 - https://support.google.com/webmasters
-
+# 360 
+- https://blog.vrtigo.io/do-people-view-all-360-f60b858059fe#.jvic30ufb
 # PHP awesome
 
 
