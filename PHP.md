@@ -178,3 +178,4 @@
 # Microservices
 
 - https://networknt.github.io/light-java/getting-started/
+- https://spring.io/blog/2015/07/14/microservices-with-spring
