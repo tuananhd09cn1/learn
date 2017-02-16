@@ -180,3 +180,18 @@
 - https://networknt.github.io/light-java/getting-started/
 - https://spring.io/blog/2015/07/14/microservices-with-spring
 - https://qbox.io/blog/elasticsearch-in-apache-spark-python
+
+# Geeks
+- http://www.adeveloperdiary.com/
+- http://sitepoint.com
+- http://www.mhthemes.com/lite/?theme=tuto
+- https://www.sitepoint.com/premium/screencasts/how-to-utilize-data-structures-in-elm-when-building-an-app
+- scoth.io
+- https://github.com/CloudCannon/edition-jekyll-template
+- https://tympanus.net/codrops/
+- http://www.tutorialsteacher.com/jquery/jquery-selectors
+- docs.io
+- http://www.wpbeginner.com/wp-themes/how-to-create-a-custom-page-in-wordpress/
+- https://shopify.github.io/liquid/
+- https://github.com/terryum/awesome-deep-learning-papers
+- https://www.khanacademy.org/computing/computer-science
