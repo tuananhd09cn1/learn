@@ -195,3 +195,6 @@
 - https://shopify.github.io/liquid/
 - https://github.com/terryum/awesome-deep-learning-papers
 - https://www.khanacademy.org/computing/computer-science
+
+# Sercurity
+- https://docs.securedrop.org/en/latest/admin.html
