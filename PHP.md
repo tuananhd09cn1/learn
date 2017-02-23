@@ -198,3 +198,6 @@
 
 # Sercurity
 - https://docs.securedrop.org/en/latest/admin.html
+# Proxy
+
+http://www.squid-cache.org/
