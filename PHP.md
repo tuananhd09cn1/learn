@@ -200,4 +200,7 @@
 - https://docs.securedrop.org/en/latest/admin.html
 # Proxy
 
-http://www.squid-cache.org/
+- http://www.squid-cache.org/
+
+# Spring
+- [Batch Writing, and Dynamic vs Parametrized SQL, how well does your database perform] (http://java-persistence-performance.blogspot.com/2013/05/batch-writing-and-dynamic-vs.html)
