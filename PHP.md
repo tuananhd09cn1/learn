@@ -207,5 +207,10 @@
 - http://kyriakos.anastasakis.net/2015/06/12/batch-inserts-with-spring-data-and-mysql/
 - http://www.bmchild.com/2015/02/spring-data-custom-batch-save-repository.html
 # Incapsula
+
 - incapsula
 - https://www.confluent.io/blog/bottled-water-real-time-integration-of-postgresql-and-kafka/
+
+# Linkin
+
+https://www.linkedin.com/pulse/clickbaits-revisited-deep-learning-title-content-features-thakur
