@@ -214,3 +214,4 @@
 # Linkin
 
 https://www.linkedin.com/pulse/clickbaits-revisited-deep-learning-title-content-features-thakur
+https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boot-microservices/
