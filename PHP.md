@@ -276,3 +276,11 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 
 - http://websystique.com/spring-security/secure-spring-rest-api-using-oauth2/
 - https://github.com/Baeldung/spring-security-oauth/blob/master/spring-security-oauth-ui-password/src/main/resources/application.yml
+
+# Performace Test
+
+- http://www.baeldung.com/rest-api-search-language-spring-data-querydsl
+- https://testmysite.withgoogle.com/intl/en-gb/
+- https://varvy.com/pagespeed/
+- JMetter2
+- Selelium
