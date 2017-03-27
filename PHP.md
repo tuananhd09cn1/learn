@@ -284,3 +284,23 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - https://varvy.com/pagespeed/
 - JMetter2
 - Selelium
+
+# TL 
+
+- https://www.algolia.com/infra
+
+- https://motherboard.vice.com/en_us/article/how-our-likes-helped-trump-win
+
+- https://www.buzzfeed.com/
+
+- http://introtodeeplearning.com/schedule.html
+
+- https://ongxuanhong.wordpress.com/2015/12/03/git-notes/
+
+- https://ongxuanhong.wordpress.com/2016/10/26/command-line-thuong-dung/
+
+- https://ongxuanhong.wordpress.com/2016/07/06/machine-learning-cho-nguoi-bat-dau/
+
+- http://gridbyexample.com/
+
+- https://huu.la/ai/cssrooster
