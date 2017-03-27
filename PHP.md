@@ -271,3 +271,8 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - https://github.com/kebattai/spring-boot-samples/tree/master/spring-boot-file-upload-with-ajax
 - https://www.infoq.com/articles/Automate-Docker-Cloud-Java-Microservice-Deployment-with-DCHQ
 - https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/
+
+# OAuth 2
+
+- http://websystique.com/spring-security/secure-spring-rest-api-using-oauth2/
+- https://github.com/Baeldung/spring-security-oauth/blob/master/spring-security-oauth-ui-password/src/main/resources/application.yml
