@@ -251,4 +251,23 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - http://rockthecode.io/tech-events/real-time-big-data-analytics-with-apache-solr-and-spark/
 
 - http://www.scoop.it/t/mongodb-bigdata-search-engine
+
 - https://www.reddit.com/r/MachineLearning/comments/5hwqeb/project_all_code_implementations_for_nips_2016/
+
+# Smart image thumb
+
+- http://blog.algorithmia.com/smart-thumbnail-image-cropping/
+- http://cloudinary.com/blog/face_detection_based_cropping
+- https://github.com/coobird/thumbnailator
+- http://opencvlover.blogspot.com/2012/11/face-detection-in-javacv-using-haar.html
+- http://commons.apache.org/proper/commons-imaging/sampleusage.html
+- https://github.com/thumbor/thumbor (Best)
+- http://blog.mapado.com/image-cropping-entropy-face-detection/
+- http://cloudinary.com/blog/beyond_face_detection_smart_cropping_in_the_cloud_using_imagga_and_cloudinary
+- https://www.microsoft.com/cognitive-services/en-us/computer-vision-api
+- http://commons.apache.org/proper/commons-imaging/sampleusage.html
+- https://github.com/coobird/thumbnailator
+- https://github.com/kebattai/spring-a-gram
+- https://github.com/kebattai/spring-boot-samples/tree/master/spring-boot-file-upload-with-ajax
+- https://www.infoq.com/articles/Automate-Docker-Cloud-Java-Microservice-Deployment-with-DCHQ
+- https://www.smashingmagazine.com/2016/12/front-end-performance-checklist-2017-pdf-pages/
