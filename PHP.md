@@ -215,3 +215,7 @@
 
 https://www.linkedin.com/pulse/clickbaits-revisited-deep-learning-title-content-features-thakur
 https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boot-microservices/
+
+#Machine Learning
+
+- https://www.reddit.com/r/MachineLearning/comments/5hwqeb/project_all_code_implementations_for_nips_2016/
