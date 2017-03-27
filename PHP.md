@@ -31,6 +31,7 @@
 - https://code.tutsplus.com/tutorials/hmvc-an-introduction-and-application--net-11850
 
 # Javascript Awesome
+
 - AngularJs
  + Yeoman Angularjs (https://github.com/yeoman/generator-angular)
 - React
@@ -197,15 +198,20 @@
 - https://www.khanacademy.org/computing/computer-science
 
 # Sercurity
+
 - https://docs.securedrop.org/en/latest/admin.html
+
 # Proxy
 
 - http://www.squid-cache.org/
 
 # Spring
+
 - [Batch Writing, and Dynamic vs Parametrized SQL, how well does your database perform] (http://java-persistence-performance.blogspot.com/2013/05/batch-writing-and-dynamic-vs.html)
 - http://kyriakos.anastasakis.net/2015/06/12/batch-inserts-with-spring-data-and-mysql/
 - http://www.bmchild.com/2015/02/spring-data-custom-batch-save-repository.html
+- https://egkatzioura.wordpress.com/2016/04/29/spring-boot-and-database-initialization/
+
 # Incapsula
 
 - incapsula
