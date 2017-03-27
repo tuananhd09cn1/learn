@@ -312,10 +312,16 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - scoth.io
 - https://github.com/CloudCannon/edition-jekyll-template
 - https://tympanus.net/codrops/
+
 - http://www.tutorialsteacher.com/jquery/jquery-selectors
 - docs.io
 - http://www.wpbeginner.com/wp-themes/how-to-create-a-custom-page-in-wordpress/
 - https://shopify.github.io/liquid/
 - https://github.com/terryum/awesome-deep-learning-papers
 - https://www.khanacademy.org/computing/computer-science
-https://internetingishard.com/html-and-css/
+- https://internetingishard.com/html-and-css/
+
+# Deep learninng
+- http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+- http://colormind.io/blog/
+- https://deeplearning4j.org/lstm
