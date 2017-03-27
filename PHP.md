@@ -304,3 +304,18 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - http://gridbyexample.com/
 
 - https://huu.la/ai/cssrooster
+
+- http://www.adeveloperdiary.com/
+- http://sitepoint.com
+- http://www.mhthemes.com/lite/?theme=tuto
+- https://www.sitepoint.com/premium/screencasts/how-to-utilize-data-structures-in-elm-when-building-an-app
+- scoth.io
+- https://github.com/CloudCannon/edition-jekyll-template
+- https://tympanus.net/codrops/
+- http://www.tutorialsteacher.com/jquery/jquery-selectors
+- docs.io
+- http://www.wpbeginner.com/wp-themes/how-to-create-a-custom-page-in-wordpress/
+- https://shopify.github.io/liquid/
+- https://github.com/terryum/awesome-deep-learning-papers
+- https://www.khanacademy.org/computing/computer-science
+https://internetingishard.com/html-and-css/
