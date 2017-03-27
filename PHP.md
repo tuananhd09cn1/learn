@@ -216,6 +216,17 @@
 https://www.linkedin.com/pulse/clickbaits-revisited-deep-learning-title-content-features-thakur
 https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boot-microservices/
 
-#Machine Learning
+# Machine Learning
 
+- https://github.com/databricks/spark-knowledgebase
+
+- http://zdatainc.com/2014/08/real-time-streaming-apache-spark-streaming/
+
+- https://dzone.com/articles/analytics-with-apache-spark-tutorial-part-2-spark
+
+- https://dzone.com/articles/using-apache-spark-and-mysql-for-data-analysis
+
+- http://rockthecode.io/tech-events/real-time-big-data-analytics-with-apache-solr-and-spark/
+
+- http://www.scoop.it/t/mongodb-bigdata-search-engine
 - https://www.reddit.com/r/MachineLearning/comments/5hwqeb/project_all_code_implementations_for_nips_2016/
