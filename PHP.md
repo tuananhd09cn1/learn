@@ -326,3 +326,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - http://colormind.io/blog/
 - https://deeplearning4j.org/lstm
 - http://www.kdnuggets.com/news/top-stories.html
+- http://imagesloaded.desandro.com/#jquery
