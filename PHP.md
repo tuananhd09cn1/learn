@@ -327,3 +327,11 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - https://deeplearning4j.org/lstm
 - http://www.kdnuggets.com/news/top-stories.html
 - http://imagesloaded.desandro.com/#jquery
+#  Tools
+- Nagios
+- Rackspace
+- Splunk
+- Chef
+- http://docs.ansible.com/ansible/playbooks.html
+
+- http://www.squid-cache.org/
