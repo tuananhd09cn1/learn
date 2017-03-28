@@ -50,9 +50,10 @@
  + https://www.bignerdranch.com/blog/music-visualization-with-d3-js/
  + https://dzone.com/articles/exploring-html5-web-audiohttps://dzone.com/articles/exploring-html5-web-audio
  + https://medium.com/@_2988845157752/how-to-develop-an-im-bot-for-facebook-messenger-b09cb4372538#.ytbxuhhg2
-- React
+# React
  + https://github.com/mxstbr/react-boilerplate
- 
+ + https://github.com/kriasoft/react-starter-kit
+ + https://github.com/badsyntax/react-seed
 # NodeJs
  - Yeoman 
  - Grunt
