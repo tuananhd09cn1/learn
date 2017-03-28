@@ -343,7 +343,7 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - https://graphiteapp.org/
 - Rackspace
 - https://www.atlassian.com/git/tutorials/comparing-workflows
-
+- https://chocolatey.org/
 # Docker
 
 - https://github.com/SUSE/Portus
