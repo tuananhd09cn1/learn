@@ -347,3 +347,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 
 - https://github.com/SUSE/Portus
 - http://geekyplatypus.com/dockerise-your-php-application-with-nginx-and-php7-fpm/
+- https://github.com/fideloper/docker-nginx-php
