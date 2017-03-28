@@ -338,3 +338,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - Grafana
 - https://graphiteapp.org/
 - Rackspace
+- https://www.atlassian.com/git/tutorials/comparing-workflows
