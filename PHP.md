@@ -322,12 +322,15 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - https://internetingishard.com/html-and-css/
 
 # Deep learninng
+
 - http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 - http://colormind.io/blog/
 - https://deeplearning4j.org/lstm
 - http://www.kdnuggets.com/news/top-stories.html
 - http://imagesloaded.desandro.com/#jquery
+
 #  Tools
+
 - Nagios
 - Rackspace
 - Splunk
@@ -339,3 +342,8 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - https://graphiteapp.org/
 - Rackspace
 - https://www.atlassian.com/git/tutorials/comparing-workflows
+
+# Docker
+
+- https://github.com/SUSE/Portus
+- http://geekyplatypus.com/dockerise-your-php-application-with-nginx-and-php7-fpm/
