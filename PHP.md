@@ -377,4 +377,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - xip.io
 - ngrok
 - www.powerdns.com
-
+- https://scotch.io/tutorials/get-vagrant-up-and-running-in-no-time
