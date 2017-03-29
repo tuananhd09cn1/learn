@@ -357,3 +357,6 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - botkit
 - Ngrok
 
+# Git rebase 
+
+- https://github.com/sjurba/rebase-editor
