@@ -364,3 +364,7 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - https://github.com/sjurba/rebase-editor
 - http://data8.org
 - http://www.primaryobjects.com/categories/Programming/
+
+# DNS
+xip.io
+ngrok
