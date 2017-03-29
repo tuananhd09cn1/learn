@@ -346,6 +346,11 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - Rackspace
 - https://www.atlassian.com/git/tutorials/comparing-workflows
 - https://chocolatey.org/
+- kubernetes
+- OpenShift (CloudPlatform)
+- ProjectAtomic
+- Docker
+
 # Docker
 
 - https://github.com/SUSE/Portus
