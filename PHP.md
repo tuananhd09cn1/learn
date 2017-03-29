@@ -202,6 +202,7 @@
 - https://qbox.io/blog/elasticsearch-in-apache-spark-python
 
 # Geeks
+
 - http://www.adeveloperdiary.com/
 - http://sitepoint.com
 - http://www.mhthemes.com/lite/?theme=tuto
@@ -358,6 +359,7 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - https://github.com/fideloper/docker-nginx-php
 - https://get.docker.com/
 - https://github.com/kasperisager/php-dockerized.git
+- https://docs.docker.com/swarm/swarm_at_scale/deploy-app/#extra-credit-deployment-with-docker-compose
 
 # Chat bot programing
 
