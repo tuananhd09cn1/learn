@@ -379,3 +379,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - www.powerdns.com
 - https://scotch.io/tutorials/get-vagrant-up-and-running-in-no-time
 - https://gist.github.com/Iristyle/5171999
+- https://www.howtogeek.com/138159/how-to-enable-programs-and-custom-scripts-to-run-at-boot/
