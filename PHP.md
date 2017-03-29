@@ -352,6 +352,7 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - http://geekyplatypus.com/dockerise-your-php-application-with-nginx-and-php7-fpm/
 - https://github.com/fideloper/docker-nginx-php
 - https://get.docker.com/
+- https://github.com/kasperisager/php-dockerized.git
 
 # Chat bot programing
 
@@ -366,7 +367,7 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - http://www.primaryobjects.com/categories/Programming/
 
 # DNS
-xip.io
-ngrok
-www.powerdns.com
-https://github.com/kasperisager/php-dockerized.git
+- xip.io
+- ngrok
+- www.powerdns.com
+
