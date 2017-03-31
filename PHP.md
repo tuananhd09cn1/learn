@@ -382,3 +382,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - https://www.howtogeek.com/138159/how-to-enable-programs-and-custom-scripts-to-run-at-boot/
 - https://freemyip.com/whatsnew
 - https://mailcatcher.me/
+- http://o7planning.org/en/10259/build-a-multiple-module-project-with-maven#a29581
