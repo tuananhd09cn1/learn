@@ -383,3 +383,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - https://freemyip.com/whatsnew
 - https://mailcatcher.me/
 - http://o7planning.org/en/10259/build-a-multiple-module-project-with-maven#a29581
+- winsw
