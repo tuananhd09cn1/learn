@@ -385,3 +385,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - http://o7planning.org/en/10259/build-a-multiple-module-project-with-maven#a29581
 - winsw
 # http://www.johnwittenauer.net/how-to-learn-hadoop-for-free/
+# https://blog.blendo.co/blendo-data-monthly-the-kafka-effect/
