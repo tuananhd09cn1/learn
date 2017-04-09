@@ -386,3 +386,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - winsw
 # http://www.johnwittenauer.net/how-to-learn-hadoop-for-free/
 # https://blog.blendo.co/blendo-data-monthly-the-kafka-effect/
+# http://emmaguo.github.io/angular-poller/
