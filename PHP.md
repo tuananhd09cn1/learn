@@ -388,3 +388,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 # https://blog.blendo.co/blendo-data-monthly-the-kafka-effect/
 # http://emmaguo.github.io/angular-poller/
 #https://www.thoughtworks.com/insights/blog/bff-soundcloud
+#http://www.jqueryscript.net/demo/Medium-style-Floating-Text-highlight-Menu-With-jQuery-CSS3/
