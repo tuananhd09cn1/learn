@@ -391,3 +391,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 #http://www.jqueryscript.net/demo/Medium-style-Floating-Text-highlight-Menu-With-jQuery-CSS3/
 #http://www.jqueryscript.net/demo/Medium-style-Floating-Text-highlight-Menu-With-jQuery-CSS3/
 #https://www.mkyong.com/java/jsoup-basic-web-crawler-example/
+#https://www.sitepoint.com/themes/ecommerce/product-category/bowls/
