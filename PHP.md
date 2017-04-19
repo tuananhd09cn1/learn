@@ -396,3 +396,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 
 # Deep learning
 - http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html
+- http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html
