@@ -399,3 +399,4 @@ https://blog.codecentric.de/en/2017/02/integration-testing-strategies-spring-boo
 - http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html
 # JFrog
 - https://inthecheesefactory.com/blog/how-to-setup-private-maven-repository/en
+- https://medyo.github.io/how-to-set-up-a-private-maven-repository-for-free
