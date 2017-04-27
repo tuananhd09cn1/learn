@@ -445,3 +445,4 @@ http://stormcrawler.net/
 http://recursivechaos.com/blog/spring-boot-jpa-mysql/
 http://www.bmchild.com/2015/02/spring-data-custom-batch-save-repository.html
 https://frightanic.com/software-development/jpa-batch-inserts/
+http://imagesloaded.desandro.com/
