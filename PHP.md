@@ -476,3 +476,4 @@ https://github.com/callmecavs/layzr.js/#optional-placeholders
 https://www.theodo.fr/blog/2016/10/medium-like-image-loading-with-vue-js/
 https://www.webforefront.com/performance/webservers_statictier.html
 https://www.nginx.com/resources/admin-guide/serving-static-content/
+topic and ng
