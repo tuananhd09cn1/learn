@@ -479,3 +479,4 @@ https://www.nginx.com/resources/admin-guide/serving-static-content/
 topic and ng
 - https://www.savjee.be/2016/06/Deploying-website-to-ftp-or-amazon-s3-with-BitBucket-Pipelines/
 - http://www.baeldung.com/tomcat-deploy-war
+- D:\BIGQSYS2017\vinasao2017
