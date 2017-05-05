@@ -485,3 +485,4 @@ topic and ng
 - https://github.com/ghostnight123/restfb
 - https://github.com/roundrop/facebook4j
 - Spring socical
+- https://examples.javacodegeeks.com/enterprise-java/quartz/spring-quartz-scheduler-example/
