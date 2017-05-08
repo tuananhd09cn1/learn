@@ -1,3 +1,4 @@
+# https://blog.ambar.cloud/ingesting-documents-pdf-word-txt-etc-into-elasticsearch/
 # Webmaster GUide line
 
 - http://www.techiedelight.com/data-structures-and-algorithms-interview-questions-stl/
