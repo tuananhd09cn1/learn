@@ -487,3 +487,5 @@ topic and ng
 - https://github.com/roundrop/facebook4j
 - Spring socical
 - https://examples.javacodegeeks.com/enterprise-java/quartz/spring-quartz-scheduler-example/
+
+- https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
