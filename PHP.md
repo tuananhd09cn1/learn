@@ -489,3 +489,37 @@ topic and ng
 - https://examples.javacodegeeks.com/enterprise-java/quartz/spring-quartz-scheduler-example/
 
 - https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
+
+
+#!/bin/bash
+service=survey
+fileRemove="/etc/init.d/survey"
+if (( $(ps -ef | grep -v grep | grep $service | wc -l) > 0 ))
+then
+  echo "$service is running, stop service..!"
+  /etc/init.d/$service stop
+  echo "Remove service..!"
+  if [! -f  fileRemove ]
+  then
+    rm  fileRemove
+  fi
+  DEPLOYFILE=$(find target -name '*.war' | xargs echo | tr ' ' ':')
+  ln -s /$DEPLOYFILE /etc/init.d/$service
+  echo $DEPLOYFILE
+  /etc/init.d/$service start
+else
+  echo "Remove service..!"
+  if [ ! -f "/etc/init.d/survey" ]
+  then
+    rm  /etc/init.d/survey
+    echo "Removed"
+  fi
+  cd target
+  DEPLOYFILE=$(find -name '*.war' | xargs echo | tr ' ' ':' | cut -d '/' -f 2)
+  echo $DEPLOYFILE
+  ln -s /var/www/survey/target/$DEPLOYFILE /etc/init.d/$service
+  /etc/init.d/$service start
+fi
+
+#!/bin/bash
+scp -P 2182 -r target dpi@107.113.53.108:/var/www/survey
