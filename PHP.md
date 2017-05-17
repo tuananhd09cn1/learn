@@ -535,3 +535,5 @@ https://wit.ai/
 http://aiplaybook.a16z.com/docs/intro/getting-started
 https://osf.io/register/
 https://mitpress.mit.edu/sites/default/files/titles/content/9780262514293_Creative_Commons_Edition.pdf
+https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077
+https://github.com/ugik/notebooks
