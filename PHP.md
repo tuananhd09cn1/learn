@@ -539,3 +539,4 @@ https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077
 https://github.com/ugik/notebooks
 https://chatbotsmagazine.com/cheat-sheet-all-facebook-chatbot-interactions-4b14e4e00178
 https://www.sitepoint.com/5-most-popular-frontend-frameworks-compared/
+https://blog.remix.com/an-intro-to-integer-programming-for-engineers-simplified-bus-scheduling-bd3d64895e92
