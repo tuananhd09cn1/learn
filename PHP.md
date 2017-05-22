@@ -1,4 +1,5 @@
 # https://blog.ambar.cloud/ingesting-documents-pdf-word-txt-etc-into-elasticsearch/
+# https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-b499e4213a34
 # Webmaster GUide line
 https://github.com/openimages/dataset
 https://www.drift.com/pricing/
