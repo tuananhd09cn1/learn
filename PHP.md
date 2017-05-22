@@ -1,6 +1,7 @@
 # https://blog.ambar.cloud/ingesting-documents-pdf-word-txt-etc-into-elasticsearch/
 # https://medium.mybridge.co/machine-learning-top-10-articles-for-the-past-month-b499e4213a34
 # https://uxdesign.cc/design-better-data-tables-4ecc99d23356
+# http://urban.nyasha.me/angular/#/
 # Webmaster GUide line
 https://github.com/openimages/dataset
 https://www.drift.com/pricing/
