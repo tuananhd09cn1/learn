@@ -540,3 +540,6 @@ https://github.com/ugik/notebooks
 https://chatbotsmagazine.com/cheat-sheet-all-facebook-chatbot-interactions-4b14e4e00178
 https://www.sitepoint.com/5-most-popular-frontend-frameworks-compared/
 https://blog.remix.com/an-intro-to-integer-programming-for-engineers-simplified-bus-scheduling-bd3d64895e92
+https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
+https://www.smashingmagazine.com/2017/05/json-api-normalizer-redux/
+https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
