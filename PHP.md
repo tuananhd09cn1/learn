@@ -547,3 +547,4 @@ https://blog.remix.com/an-intro-to-integer-programming-for-engineers-simplified-
 https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
 https://www.smashingmagazine.com/2017/05/json-api-normalizer-redux/
 https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56
+https://aic-project.github.io/documentation/
