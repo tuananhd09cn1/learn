@@ -1,3 +1,4 @@
+# http://tomazkovacic.com/blog/2011/03/11/list-of-resources-article-text-extraction-from-html-documents/
 # https://www.gipp.com/wp-content/papercite-data/pdf/hamborg2017.pdf
 # https://www.gipp.com/wp-content/papercite-data/pdf/hamborg2017.pdf
 # https://www.quora.com/Web-Crawling-How-can-you-extract-news-articles-given-keywords-and-news-sources
