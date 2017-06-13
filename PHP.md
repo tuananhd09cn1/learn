@@ -1,3 +1,4 @@
+# https://www.diffbot.com/products/automatic/article/
 # https://www.ibm.com/watson/developercloud/alchemy-language/api/v1/#authentication
 # http://tomazkovacic.com/blog/2011/03/11/list-of-resources-article-text-extraction-from-html-documents/
 # https://www.gipp.com/wp-content/papercite-data/pdf/hamborg2017.pdf
