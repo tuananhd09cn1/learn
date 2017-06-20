@@ -1,3 +1,4 @@
+# https://www.startupschool.org/presentations/vertical/artificial-intelligence
 # https://research.googleblog.com/2017/06/supercharge-your-computer-vision-models.html
 # https://github.com/creativetimofficial/paper-dashboard
 # http://eventregistry.org/
