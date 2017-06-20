@@ -1,3 +1,4 @@
+# https://resin.io/
 # https://kndrck.co/indexing-faces-on-instagram.html
 # https://www.aiia.net/artificial-intelligence/articles/what-get-the-app-means-for-big-data-and-for/?=37423874
 # https://www.startupschool.org/presentations/vertical/artificial-intelligence
