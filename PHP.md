@@ -1,3 +1,4 @@
+# https://research.googleblog.com/2017/06/supercharge-your-computer-vision-models.html
 # https://github.com/creativetimofficial/paper-dashboard
 # http://eventregistry.org/
 # https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#spring-boot
