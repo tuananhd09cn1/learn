@@ -1,4 +1,5 @@
 http://oskarhane.com/backup-mysql-with-git/
+https://www.digitalocean.com/community/tutorials/how-to-configure-sensu-monitoring-rabbitmq-and-redis-on-ubuntu-14-04
 https://tech.rgou.net/en/linux-2/backup-script-on-google-drive-for-linux/
 http://sivareddy.in/automatic-backup-project-data-git
 http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
