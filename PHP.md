@@ -1,3 +1,411 @@
+(function () {
+    'use strict';
+
+    angular
+        .module('innovationApp')
+        .controller('HomeController', HomeController);
+
+    HomeController.$inject = ['$scope', 'Principal', 'LoginService',
+     '$state', 'ECHARTS_THEME1', 'ECHARTS_THEME2', 'ECHARTS_THEME3', '$http','toastr', '$rootScope', '$interval', 'ScreenService'];
+
+    function HomeController($scope, Principal, LoginService,
+     $state, ECHARTS_THEME1, ECHARTS_THEME2, ECHARTS_THEME3, $http, toastr, $rootScope, $interval, ScreenService) {
+        var client = new ClientJS();
+        var vm = this;
+        var rightTextStackChart  = '15%';
+        vm.heightOveralStatistic = '650px';
+        vm.heightStackedChart    = '283px';
+        vm.grleft                = '7%';
+        vm.legendRight           = "0%";
+        vm.bottomStackbar        = '25%';
+        if (ScreenService.isHD()){
+            console.log("HD");
+            var rightTextStackChart = '20%';
+            vm.heightOveralStatistic = '455px';
+            vm.heightStackedChart = '186px';
+            vm.grleft = '5%';
+            vm.bottomStackbar = '15%';
+            vm.legendRight ="0%";
+        }
+        vm.account = null;
+        vm.isAuthenticated = null;
+        vm.login = LoginService.open;
+        vm.register = register;
+        vm.selectedTeam = "";
+
+        vm.dashboardStatistic = {
+            total: 0,
+            meetTarget: 0,
+            missedTarget: 0,
+            warning: 0,
+            processing: 0,
+            delay: 0,
+            completed: 0,
+            dropped: 0
+        };
+
+        $rootScope.$on('authenticationSuccess', function () {
+            getAccount();
+        });
+
+        getAccount();
+
+        function getAccount() {
+            Principal.identity().then(function (account) {
+                vm.account = account;
+                vm.isAuthenticated = Principal.isAuthenticated;
+            });
+        }
+        function register() {
+            $state.go('register');
+        }
+
+        var theme1 = ECHARTS_THEME1();
+        var theme2 = ECHARTS_THEME2();
+        var theme3 = ECHARTS_THEME3();
+        var cavasEchartDonut = document.getElementById('echart_donut');
+        cavasEchartDonut.style.height = vm.heightOveralStatistic;
+        var echartDonut = echarts.init(cavasEchartDonut, theme1);
+        var echartDonutOptions = {
+            tooltip: {
+                trigger: 'item',
+                formatter: "{b} : {c} ({d}%)"
+            },
+            calculable: true,
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: { title: 'Save image' }
+                },
+                right: 20,
+                top: 30
+            },
+            series: [
+                {
+                    name: 'SEV',
+                    type: 'pie',
+                    radius: [0, '20%'],
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'center',
+                            textStyle: {
+                                color: '#4631a0',
+                                fontSize: '60',
+                                fontWeight: 'bold'
+                            }
+                        }
+                    },
+                    data: [
+                        { value: 1450, name: 'SEV' }
+                    ]
+                }, {
+                    name: 'Team',
+                    selectedMode: 'single',
+                    type: 'pie',
+                    radius: ['40%', '80%'],
+                    avoidLabelOverlap: false,
+                    label: {
+                        normal: {
+                            show: true,
+                            position: 'inside',
+                            formatter: '{d}%'
+                        }
+                    },
+                    data: [{
+                        value: 335,
+                        name: 'A'
+                    }, {
+                        value: 310,
+                        name: 'B'
+                    }]
+                }]
+        }
+        var canvasStackTargetChart = document.getElementById('echart_stack_target');
+        canvasStackTargetChart.style.height = vm.heightStackedChart;
+        var echartStackTarget = echarts.init(canvasStackTargetChart, theme3);
+         
+        var echartsStackTargetOption = {
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                },
+            },
+            legend: {
+                orient: 'vertical',
+                // x: 'right',
+                y: 'center',
+                align: 'left',
+                right: vm.legendRight,
+                itemGap: 20,
+                data: ['Meet Target', 'Missed Target', 'Warning']
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: { title: 'Save image' }
+                },
+                right: 20
+            },
+            dataZoom: [{
+                type: 'inside',
+                start: 0,
+                end: 100
+            }],
+            grid: {
+                left: vm.grleft,
+                bottom: vm.bottomStackbar,
+                right: rightTextStackChart,
+                height: '75%',
+                containLabel: true
+            },
+            xAxis: [
+                {
+                    type: 'category',
+                    axisTick: {
+                        show: true
+                    },
+                    axisLabel: {
+                        interval: 0,
+                        rotate: 30,
+                        textStyle: {
+                            color: "#000"
+                        }
+                    },
+                    data: [
+                }
+            ],
+            yAxis: [
+                {
+                    type: 'value'
+                }
+            ],
+            series: [
+                {
+                    name: 'Warning',
+                    type: 'bar',
+                    stack: 'stack',
+                    data: [4, 6, 1, 2, 10, 4, 8, 3, 1, 1, 7, 0, 0, 3, 2, 1]
+                },
+                {
+                    name: 'Missed Target',
+                    type: 'bar',
+                    stack: 'stack',
+                    data: [2, 3, 0, 1, 2, 7, 1, 2, 0, 1, 1, 0, 2, 0, 2, 0]
+                },
+                {
+                    name: 'Meet Target',
+                    type: 'bar',
+                    stack: 'stack',
+                    data: [1, 3, 0, 2, 3, 3, 0, 2, 2, 2, 1, 2, 0, 1, 0, 0]
+                }
+            ]
+        };
+        var canvasStackStatus = document.getElementById('echart_stack_status');
+        canvasStackStatus.style.height = vm.heightStackedChart;
+        var echartStackStatus = echarts.init(canvasStackStatus, theme2);
+        var echartStackStatusOption = {
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                }
+            },
+            legend: {
+                orient: 'vertical',
+                // x: 'right',
+                y: 'center',
+                align: 'left',
+                right: vm.legendRight,
+                itemGap: 20,
+                // data: ['Processing', 'Delay', 'Completed', 'Dropped']
+                data: ['On Time', 'Delay']
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: { title: 'Save image' }
+                },
+                right: 20,
+            },
+            dataZoom: [{
+                type: 'inside',
+                start: 0,
+                end: 100
+            }],
+            grid: {
+                left: vm.grleft,
+                bottom: vm.bottomStackbar,
+                right: rightTextStackChart,
+                height: '75%',
+                containLabel: true
+            },
+            xAxis: [
+                {
+                    type: 'category',
+                    boundaryGap: true,
+                    axisTick: { onGap: false },
+                    splitLine: { show: false },
+                    axisLabel: {
+                        interval: 0,
+                        rotate: 30,
+                        textStyle: {
+                            color: "#000"
+                        }
+                    },
+                    data: ['A', 'B', 'C']
+                }
+            ],
+            yAxis: [
+                {
+                    type: 'value'
+                }
+            ],
+            series: [
+                // {
+                //     name: 'Dropped',
+                //     type: 'bar',
+                //     stack: 'stack',
+                //     data: [1, 3, 0, 2, 3, 3, 0, 2, 2, 2, 1, 2, 0, 1, 0, 0]
+                // },
+                // {
+                //     name: 'Completed',
+                //     type: 'bar',
+                //     stack: 'stack',
+                //     data: [2, 3, 0, 1, 2, 7, 1, 2, 0, 1, 1, 0, 2, 0, 2, 0]
+                // },
+                {
+                    name: 'Delay',
+                    type: 'bar',
+                    stack: 'stack',
+                    data: [4, 6, 1, 2, 10, 4, 8, 3, 1, 1, 7, 0, 0, 3, 2, 1]
+                },
+                // {
+                //     name: 'Processing',
+                //     type: 'bar',
+                //     stack: 'stack',
+                //     data: [4, 6, 1, 2, 10, 4, 8, 3, 1, 1, 7, 0, 0, 3, 2, 1]
+                // },
+                {
+                    name: 'On Time',
+                    type: 'bar',
+                    stack: 'stack',
+                    data: [4, 6, 1, 2, 10, 4, 8, 3, 1, 1, 7, 0, 0, 3, 2, 1]
+                }
+
+            ]
+        };
+
+        function drawChartDetail(team) {
+            $http.get("/api/projects/detail-project-by-team", { params: { team: team != null ? team : "" } })
+                .then(function (response) {
+                    if (response.data instanceof Object) {
+                        echartsStackTargetOption.xAxis[0].data = response.data.item;
+                        echartsStackTargetOption.series[0].data = response.data.warning;
+                        echartsStackTargetOption.series[1].data = response.data.missedTarget;
+                        echartsStackTargetOption.series[2].data = response.data.meetTarget;
+                        echartStackTarget.setOption(echartsStackTargetOption);
+
+                        echartStackStatusOption.xAxis[0].data = response.data.item;
+                        // echartStackStatusOption.series[0].data = response.data.dropped;
+                        // echartStackStatusOption.series[1].data = response.data.completed;
+                        echartStackStatusOption.series[0].data = response.data.delay;
+                        // echartStackStatusOption.series[3].data = response.data.processing;
+                        echartStackStatusOption.series[1].data = response.data.processing;
+                        echartStackStatus.setOption(echartStackStatusOption);
+
+                        vm.dashboardStatistic.warning = 0;
+                        angular.forEach(response.data.warning, function (v) {
+                            vm.dashboardStatistic.warning += v;
+                        });
+
+                        vm.dashboardStatistic.missedTarget = 0;
+                        angular.forEach(response.data.missedTarget, function (v) {
+                            vm.dashboardStatistic.missedTarget += v;
+                        });
+
+                        vm.dashboardStatistic.meetTarget = 0;
+                        angular.forEach(response.data.meetTarget, function (v) {
+                            vm.dashboardStatistic.meetTarget += v;
+                        });
+
+                        vm.dashboardStatistic.dropped = 0;
+                        angular.forEach(response.data.dropped, function (v) {
+                            vm.dashboardStatistic.dropped += v;
+                        });
+
+                        vm.dashboardStatistic.completed = 0;
+                        angular.forEach(response.data.completed, function (v) {
+                            vm.dashboardStatistic.completed += v;
+                        });
+
+                        vm.dashboardStatistic.delay = 0;
+                        angular.forEach(response.data.delay, function (v) {
+                            vm.dashboardStatistic.delay += v;
+                        });
+
+                        vm.dashboardStatistic.processing = 0;
+                        angular.forEach(response.data.processing, function (v) {
+                            vm.dashboardStatistic.processing += v;
+                        });
+
+                    }
+                }, function (response) {
+                    console.log(response);
+                });
+        }
+        function loadDataChart() {
+            console.log("Reload data chart");
+            $http.get("")
+                .then(function (response) {
+                    if (response.data instanceof Array) {
+                        var total = 0;
+                        angular.forEach(response.data, function (item) {
+                            total += item.value;
+                        });
+                        vm.dashboardStatistic.total = total;
+                        echartDonutOptions.series[0].data = [{ value: total, name: 'SEV' }];
+                        echartDonutOptions.series[1].data = response.data;
+                        echartDonut.setOption(echartDonutOptions);
+
+                        drawChartDetail();
+                    }
+                }, function (response) {
+                    console.log(response);
+                });
+        }
+        function autoReloadDataChart(seconds, callback) {
+            callback();
+            return $interval(callback, seconds * 1000);
+        }
+        autoReloadDataChart(300, loadDataChart);
+        
+        echartDonut.on("click", function (param) {
+            // console.log(echartDonut);
+            // console.log(param);
+
+            var text = $("#selected_team_text");
+            if (param.seriesName == 'Team' && param.data.selected == true) {
+                vm.selectedTeam = param.name;
+                text.html(param.name);
+                text.css({ "color": param.color });
+                drawChartDetail(vm.selectedTeam);
+                vm.dashboardStatistic.total = param.value;
+            } else {
+                vm.selectedTeam = "TEST";
+                text.html("TEST");
+                text.css({ "color": "#fff" });
+                echartDonut.setOption(echartDonutOptions);
+                vm.dashboardStatistic.total = echartDonut._chartsViews[0]._data._rawData[0].value
+                drawChartDetail();
+            }
+        });
+
+    }
+})();
+
+
 # https://www.smashingmagazine.com/2017/06/better-faster-optimized-wordpress-websites/
 # https://resin.io/
 # https://kndrck.co/indexing-faces-on-instagram.html
