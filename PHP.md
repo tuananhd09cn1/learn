@@ -1,3 +1,5 @@
+http://rancher.com/swarm/
+https://www.openstack.org/
 http://oskarhane.com/backup-mysql-with-git/
 https://www.digitalocean.com/community/tutorials/how-to-configure-sensu-monitoring-rabbitmq-and-redis-on-ubuntu-14-04
 https://tech.rgou.net/en/linux-2/backup-script-on-google-drive-for-linux/
