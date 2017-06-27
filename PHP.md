@@ -1,4 +1,4 @@
-
+stackdriver
 https://www.pgs-soft.com/big-data-and-machine-learning-with-apache-spark-and-cassandra-part-1-architecture/
 https://www.infoq.com/articles/traffic-data-monitoring-iot-kafka-and-spark-streaming
 http://rancher.com/swarm/
