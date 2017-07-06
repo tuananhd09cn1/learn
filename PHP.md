@@ -1,5 +1,5 @@
 https://github.com/mraible/microservices-for-the-masses/blob/master/demos/jhipster-microservices/TUTORIAL.md
-
+https://www.sitepoint.com/build-lyrics-website-laravel-scout-algolia/
 http://www.rabbitmq.com/configure.html#config-location
 stackdriver
 https://www.pgs-soft.com/big-data-and-machine-learning-with-apache-spark-and-cassandra-part-1-architecture/
