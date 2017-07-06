@@ -10,3 +10,4 @@
 (network.host: ["10.90.213.132", "172.16.50.12"])
 xpack.monitoring.elasticsearch.username: logstash_system
 xpack.monitoring.elasticsearch.password: t0p.s3cr3t
+https://www.elastic.co/guide/en/logstash/current/config-examples.html
