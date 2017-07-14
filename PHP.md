@@ -998,3 +998,4 @@ https://www.pgs-soft.com/experience/sts-e-commerce/
 FakeJSON Server
 https://hubot.github.com/
 https://hubot.github.com/
+https://unsupervisedmethods.com/my-curated-list-of-ai-and-machine-learning-resources-from-around-the-web-9a97823b8524
