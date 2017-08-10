@@ -1,0 +1,13 @@
+<VirtualHost *:8000> 
+	DocumentRoot "D:/GIT/svmc-hub"
+	ServerName svmchub
+	<Directory "D:/GIT/svmc-hub">
+        Options FollowSymLinks
+        AllowOverride None
+    </Directory>
+    <Directory "D:/GIT/svmc-hub">
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All 
+        Require all granted
+    </Directory>
+</VirtualHost>
