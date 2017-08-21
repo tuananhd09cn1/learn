@@ -1,3 +1,4 @@
+https://www.catalysts.cc/en/wissenswertes/intellij-idea-and-eclipse-shortcuts/
 http://allandroidprojects.blogspot.com/2016/11/ecomsample-sample-e-commerce-online.html
 https://github.com/Hack-with-Github/Awesome-Hacking
 http://www.baeldung.com/spring-boot-app-as-a-service
