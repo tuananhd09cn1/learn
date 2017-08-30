@@ -11,3 +11,5 @@ eJzzzU/OLi0odswsqgnOTysJy8ursUQCNc41hjV+7q5+AClADYE=
 ---------------------------------------------------------------------
 Name: tuan.cse06 - SoftVnn 
 eJzzzU/OLi0odswsqikpTczTSy5ONTBT0FUIzk8rCc..q7FEAjXONYY1f u6ufgD21RF1 
+
+https://tinhte.vn/threads/sua-loi-popup-mackeeper-trong-safari.2366778/
