@@ -1,4 +1,5 @@
-
+https://scotch.io/tutorials/creating-desktop-applications-with-angularjs-and-github-electron
+https://github.com/jasimea/ElectronAngular/blob/master/Gulpfile.js
 
 import java.io.File;
 
