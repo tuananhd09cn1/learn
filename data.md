@@ -2,7 +2,32 @@ https://scotch.io/tutorials/creating-desktop-applications-with-angularjs-and-git
 https://github.com/jasimea/ElectronAngular/blob/master/Gulpfile.js
 https://github.com/electron/electron-quick-start/blob/master/package.json
 https://github.com/saenzramiro/rambox
+public class ExecuteShellComandUtil {
+	public  static String executeCommand(String command) {
+		StringBuffer output = new StringBuffer();
 
+		Process p;
+		try {
+			p = Runtime.getRuntime().exec(command);
+			p.waitFor();
+			BufferedReader reader =
+                           new BufferedReader(new InputStreamReader(p.getInputStream()));
+
+			String line = "";
+			while ((line = reader.readLine())!= null) {
+				output.append(line + "\n");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return output.toString();
+
+	}
+
+	
+}
 import java.io.File;
 
 import javax.swing.filechooser.FileSystemView;
