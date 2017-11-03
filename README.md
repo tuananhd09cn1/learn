@@ -7,6 +7,8 @@ Deep Learning for Self-Driving Cars
 		});
 		
 		$rootScope.initialized = true;
+
+https://github.com/Stephn-R/electron-angular-boilerplate
 # learn
 Fork to learn
 http://www.laptophits.com/products?price_from=0&price_to=400
