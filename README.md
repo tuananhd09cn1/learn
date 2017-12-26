@@ -1,4 +1,5 @@
 https://alvinalexander.com/java/edu/pj/pj010016
+https://github.com/crilleengvall/electron-tutorial-app.git
 
 https://research.googleblog.com/2017/06/supercharge-your-computer-vision-models.html
 https://medium.com/netflix-techblog
