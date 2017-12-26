@@ -1,3 +1,5 @@
+https://alvinalexander.com/java/edu/pj/pj010016
+
 https://research.googleblog.com/2017/06/supercharge-your-computer-vision-models.html
 https://medium.com/netflix-techblog
 Deep Learning for Self-Driving Cars
