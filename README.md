@@ -1,4 +1,5 @@
 https://stackoverflow.com/questions/13244181/inno-setup-app-start-when-windows-start
+https://electronjs.org/docs/tutorial/application-distribution
 https://www.mkyong.com/java/how-to-execute-shell-command-from-java/
 https://github.com/codeskyblue/electron-inno-auto-update
 https://coolaj86.com/articles/how-to-create-an-innosetup-installer.html
