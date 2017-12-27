@@ -1,3 +1,4 @@
+https://github.com/codeskyblue/electron-inno-auto-update
 https://alvinalexander.com/java/edu/pj/pj010016
 https://github.com/crilleengvall/electron-tutorial-app.git
 
