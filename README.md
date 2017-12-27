@@ -1,4 +1,5 @@
 https://github.com/codeskyblue/electron-inno-auto-update
+https://coolaj86.com/articles/how-to-create-an-innosetup-installer.html
 https://alvinalexander.com/java/edu/pj/pj010016
 https://github.com/crilleengvall/electron-tutorial-app.git
 
