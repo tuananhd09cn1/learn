@@ -6,7 +6,7 @@ https://github.com/codeskyblue/electron-inno-auto-update
 https://coolaj86.com/articles/how-to-create-an-innosetup-installer.html
 https://alvinalexander.com/java/edu/pj/pj010016
 https://github.com/crilleengvall/electron-tutorial-app.git
-
+https://gist.github.com/k4m4r82/d07cb047d26f2df4778606c48db35b14
 https://research.googleblog.com/2017/06/supercharge-your-computer-vision-models.html
 https://medium.com/netflix-techblog
 Deep Learning for Self-Driving Cars
