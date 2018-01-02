@@ -1,3 +1,9 @@
+http://www.software-testing-tutorials-automation.com/2015/03/how-to-set-proxy-settings-in-selenium.html
+
+http://www.software-testing-tutorials-automation.com/2015/03/how-to-set-proxy-settings-in-selenium.html
+
+
+
 https://stackoverflow.com/questions/13244181/inno-setup-app-start-when-windows-start
 https://github.com/eventviva/php-image-resize
 https://electronjs.org/docs/tutorial/application-distribution
