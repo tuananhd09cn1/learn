@@ -173,3 +173,13 @@ http://www.martinfowler.com/articles/injection.html
 https://itviec.com/it-jobs/20-developer-java-php-net-nissho-electronics-4322
 http://docs.guzzlephp.org/en/latest/index.html
 http://o7planning.org/en/10125/using-hibernate-tools-generate-entity-classes-from-tables
+
+https://howtodoinjava.com/core-java/multi-threading/java-thread-pool-executor-example/
+http://tutorials.jenkov.com/java-concurrency/thread-pools.html
+https://stackify.com/java-thread-pools/
+https://www.geeksforgeeks.org/thread-pools-java/
+https://www.javacodegeeks.com/2013/01/java-thread-pool-example-using-executors-and-threadpoolexecutor.html
+https://www.journaldev.com/2340/java-scheduler-scheduledexecutorservice-scheduledthreadpoolexecutor-example
+https://www.journaldev.com/1069/threadpoolexecutor-java-thread-pool-example-executorservice
+http://www.baeldung.com/thread-pool-java-and-guava
+https://www.javatpoint.com/java-thread-pool
