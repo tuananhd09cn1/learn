@@ -1,0 +1,48 @@
+FROM ubuntu:16.04
+MAINTAINER 
+
+
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get -y --force-yes install vim wget curl build-essential software-properties-common python-software-properties apt-utils; \
+  apt-get -y --force-yes install openjdk-8-jdk nginx=1.10.3-0ubuntu0.16.04.2 mysql-server=5.7.20-0ubuntu0.16.04.1;\
+  apt-get -y --force-yes install git;
+  
+RUN wget https://deb.nodesource.com/setup_6.x; \
+	chmod 777 setup_6.x;\
+	./setup_6.x;\
+	rm setup_6.x;\
+	apt-get -y --force-yes install nodejs;
+
+
+ENV MYSQL_PASSwORD ''
+RUN mkdir -p /var/run/mysqld/; \
+  chown mysql /var/run/mysqld; \
+  chmod 777 /var/run/mysqld; \
+  usermod -d /var/lib/mysql mysql; \
+  rm -rf /var/run/mysqld/mysqld.sock; \
+  ln -s `find / -name "mysqld.sock"` /var/run/mysqld/mysqld.sock; \
+  service mysql restart; \
+  mysqladmin -uroot password ${MYSQL_PASSwORD}; \
+  service mysql restart
+
+RUN wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.4.6/elasticsearch-2.4.6.deb; \
+  dpkg -i elasticsearch-2.4.6.deb;\
+  rm -rf elasticsearch-2.4.6.deb;\
+  /etc/init.d/elasticsearch start;
+
+
+
+COPY ssh /root/.ssh
+RUN mv /root/.ssh/rsa /root/.ssh/rsa; \
+  mv /root/.ssh/rsa.pub /root/.ssh/rsa.pub; \
+  chmod 700 /root/.ssh/rsa /root/.ssh/rsa.pub; \
+  ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts;	
+  
+RUN git config --global user.name  \
+  git config --global user.email \
+  git clone ; \
+
+  -------------
+  docker build --tag  ./
+  docker run --name  --volume $PWD/VOL:/mnt -p 80:80 -it 
+  docker exec -it doc bash
