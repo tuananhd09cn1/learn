@@ -1,4 +1,3 @@
-<img src="icon.png" align="right" />
 
 # Awesome MessageBroker 
 > A curated list of awesome READMEs
