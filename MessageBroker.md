@@ -7,6 +7,8 @@ Message Broker.
 
 ## Examples
 - [michaellihs/spring-amqp-by-example](https://github.com/michaellihs/spring-amqp-by-example) - Holds code samples, snippets, tests and documentation for the Spring AMQP library.
+- [gessnerfl/rabbitmq-queue-management](https://github.com/gessnerfl/rabbitmq-queue-management) - Application to list, delete and re-queue messages of queues.
+- [spring-rabbitmq-actuator/gessnerfl](https://github.com/julian-eggers/spring-rabbitmq-actuator) Queue Management Tool for RabbitMQ - List/Delete/Requeue Messages
 
 
 ## Articles
