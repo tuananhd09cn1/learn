@@ -27,7 +27,7 @@ Message Broker.
 
 ## Operation
 
-- ["Configuration RabbitMQ"](https://github.com/noffle/art-of-readme) - *Stephen Whitmore*
+- ["Configuration RabbitMQ"](https://github.com/ghostnight123/learn/blob/master/MessageBroker/Configuration_RabbitMQ.md) - Setup and configuration RabbtMQ *TuanLA*
 
 ## Contribute
 
