@@ -8,7 +8,7 @@ Scripting.
 - [framis/exec-groovy-in-java](https://github.com/framis/exec-groovy-in-java) - Exec groovy in java.
 - [johnhuang-cn/jpserve](https://github.com/johnhuang-cn/jpserve) - Calling Python from JAVA.
 - [brianray/embedded-jython](https://github.com/brianray/embedded-jython) - Example of advanced embedding Python to run natively on the JVM via Jython..
-
+- [thombergs/code-examples](https://github.com/thombergs/code-examples/tree/master/spring-boot/rabbitmq-event-brokering) - Code Examples
 
 ## Articles
 - ["Groovy Goodness: Running Groovy Scripts in Java with GroovyClassLoader"](http://mrhaki.blogspot.com/2009/11/groovy-goodness-running-groovy-scripts.html) - *mrhaki*

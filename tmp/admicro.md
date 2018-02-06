@@ -1,1 +1,0 @@
-https://publisher.admicro.vn/
