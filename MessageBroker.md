@@ -27,7 +27,7 @@ Message Broker.
 
 ## Operation
 
-- ["Configuration RabbitMQ"](https://github.com/ghostnight123/learn/blob/master/MessageBroker/Configuration_RabbitMQ.md) - Setup and configuration RabbtMQ *TuanLA*
+- ["Configuration RabbitMQ"](MessageBroker/Configuration_RabbitMQ.md) - Setup and configuration RabbtMQ *TuanLA*
 
 ## Contribute
 
