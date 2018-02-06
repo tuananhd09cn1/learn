@@ -11,7 +11,7 @@ ava Spring Boot.
 - ["The Task Pattern: A Design Pattern for Processing and Monitoring Long-Running Tasks"] (https://www.developerdotstar.com/mag/articles/troche_taskpattern.html) 
 - ["Asynchronous Task sequencing using Observer pattern"] (https://sycure.wordpress.com/2014/12/23/java-asynchronous-task-sequencing-using-observer-pattern/) 
 - ["Event-based Asynchronous Pattern Overview"] (https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/event-based-asynchronous-pattern-overview) 
-
+- ["Event Notifier, a Pattern for Event Notification"] (http://www.marco.panizza.name/dispenseTM/slides/exerc/eventNotifier/eventNotifier.html)
 ## Operation
 
 
