@@ -23,6 +23,8 @@ Scripting.
 - ["Embedding Jython in Java Applications"](https://blog.smartbear.com/programming/embedding-jython-in-java-applications/)
 - ["Call python script functions from java code"](http://automation-home.blogspot.com/2015/12/call-python-script-functions-from-java.html)
 - ["Embed Jython to Your Java Codebase"](https://dzone.com/articles/embed-jython-to-your-java-codebase)
+- ["Different Flavors of Embedded Groovy in Java Apps or How To Make your Java Groovier!"](http://www.kellyrob99.com/blog/2009/11/21/different-flavors-of-embedded-groovy-in-java-apps-or-how-to-make-your-java-groovier/)
+- ["- ["Different Flavors of Embedded Groovy in Java Apps or How To Make your Java Groovier!"](http://www.kellyrob99.com/blog/2010/05/15/achieving-groovy-like-fluency-in-java-with-google-collections/)
 ## Tools
 https://github.com/brianray/embedded-jython/tree/master/src/com/brianray/embedded_jython
 
