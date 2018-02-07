@@ -21,6 +21,9 @@ ava Spring Boot.
 
 - ["Spring Events"] (http://www.baeldung.com/spring-events)
 
+## Spring Sercurity
+
+- ["OAuth2 with JWT"] (https://github.com/dynamind/spring-boot-security-oauth2-minimal)
 
 ## Contribute
 
