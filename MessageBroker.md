@@ -10,6 +10,7 @@ Message Broker.
 - [spring-rabbitmq-actuator/gessnerfl](https://github.com/julian-eggers/spring-rabbitmq-actuator) Queue Management Tool for RabbitMQ - List/Delete/Requeue Messages
 - [michaellihs/spring-rabbitmq](https://github.com/michaellihs/spring-rabbitmq) Sample application for Spring Boot and RabbitMQ
 
+- [BernhardWenzel/scraping-microservice-java-python-rabbitmq] (https://github.com/BernhardWenzel/scraping-microservice-java-python-rabbitmq) Microservices tutorial building a web-scraper with Java, Python and RabbitMQ 
 
 ## Articles
 - ["RabbitMQ Exchanges, routing keys and bindings"](https://www.cloudamqp.com/blog/2015-09-03-part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html) - *Cloudamqp*
