@@ -2,7 +2,7 @@
 # Awesome Java Spring Boot 
 > A curated list of awesome READMEs
 
-ava Spring Boot.
+Java Spring Boot.
 
 
 
@@ -24,7 +24,10 @@ ava Spring Boot.
 ## Spring Sercurity
 
 - ["OAuth2 with JWT"] (https://github.com/dynamind/spring-boot-security-oauth2-minimal)
-
+- ["Spring Boot Oauth2 Samples with a Authorization Server, Resource Server and Rest Client"] (https://github.com/codependent/spring-boot-oauth2)
+- ["Where to Store your JWTs – Cookies vs HTML5 Web Storage"] (https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage)
+- ["JSON Web Tokenss"] (https://github.com/dwyl/learn-json-web-tokens)
+- ["API Security Checklist"] (https://github.com/shieldfy/API-Security-Checklist)
 ## Contribute
 
 Contributions are always welcome!
