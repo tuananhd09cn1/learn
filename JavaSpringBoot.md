@@ -8,7 +8,7 @@ Java Spring Boot.
 
 ## Jobs & Scheduler
 
-- [GUI Manager for Quartz Scheduler. Scheduler console and job monitor (Java Developed)] (https://github.com/fabioformosa/quartz-manager) - *fabioformosa*
+- [GUI Manager for Quartz Scheduler. Scheduler console and job monitor (Java Developed)](https://github.com/fabioformosa/quartz-manager) - *fabioformosa*
 - [Dynamic Job Scheduling with Quartz and Spring](http://juliuskrah.com/tutorial/2017/09/26/dynamic-job-scheduling-with-quartz-and-spring/) - *juliuskrah*
 - [Persisting Dynamic Jobs with Quartz and Spring](http://juliuskrah.com/tutorial/2017/10/06/persisting-dynamic-jobs-with-quartz-and-spring/) - *juliuskrah*
 - [Error Handling in a REST Service with Quartz](http://juliuskrah.com/tutorial/2017/10/11/error-handling-in-a-rest-service-with-quartz/) 
