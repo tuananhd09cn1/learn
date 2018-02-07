@@ -19,7 +19,7 @@ Java Spring Boot.
 
 ## Spring Events
 
-- ["Spring Events"] (http://www.baeldung.com/spring-events)
+- [Spring Events](http://www.baeldung.com/spring-events)
 
 ## Spring Sercurity
 
