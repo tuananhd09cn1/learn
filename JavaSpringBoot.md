@@ -15,6 +15,10 @@ Java Spring Boot.
 - [Spring boot project for job chaining using Quartz](https://github.com/atulmahind/job-pipeline)
 - [Quartz 2 Scheduler Example with Trigger and CronTrigger using Job, SchedulerFactory, JobDetail, CronScheduleBuilder, JobBuilder, TriggerBuilder, JobKey and JobExecutionContext] (https://github.com/atulmahind/job-pipeline)
 
+## Dynamic Config
+
+[How to Load Application Properties from Database](https://www.google.com.vn/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiTs4bH_JXZAhUDFZQKHWAIDskQFggpMAA&url=http%3A%2F%2Fwww.opencodez.com%2Fjava%2Fhow-to-load-application-properties-from-database.htm&usg=AOvVaw1twp2DYaoWLHegO2d0AGye)
+
 
 
 ## Spring Events
