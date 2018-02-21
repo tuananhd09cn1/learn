@@ -8,7 +8,7 @@ Chart.
 
 ## Example
 
-- ["D3 Real-time Time Series Chart"] (https://codepen.io/browles/pen/mPMBjw)
+- ["D3 Real-time Time Series Chart"](https://codepen.io/browles/pen/mPMBjw)
 
 ## Operation
 
