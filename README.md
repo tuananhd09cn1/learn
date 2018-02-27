@@ -3,6 +3,7 @@
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
         "tcdent/php-restclient": "^0.1.7"
+	https://github.com/mookofe/tail
 <?php
 
 namespace App\Http\Controllers;
