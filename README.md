@@ -1,3 +1,42 @@
+        "guzzlehttp/guzzle": "^6.3",
+        "kontoulis/rabbitmq-laravel": "^2.1",
+        "laravel/framework": "5.5.*",
+        "laravel/tinker": "~1.0",
+        "tcdent/php-restclient": "^0.1.7"
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use RestClient;
+use GuzzleHttp\Client;
+use Kontoulis\RabbitMQLaravel\Facades\RabbitMQ;
+class SyncController extends Controller
+{
+    
+    public function index(){
+        $dataRequest = ["messageBody"=>"String","routingKey"=>"String","topic"=>"String","type"=>"String"];
+        $client = new \GuzzleHttp\Client();
+        $res = $client->request('POST', 'http://message.vinasao.net/api/publish/messages', ['json'=>$dataRequest]);
+        echo print_r($res,true);
+        echo $res->getBody();
+      
+    }
+    public function customer(){
+        $dataRequest = ["messageBody"=>"String","routingKey"=>"String","topic"=>"String","type"=>"String"];
+        $client = new \GuzzleHttp\Client();
+        $res = $client->request('POST', 'http://xposprod.vinasao.net/api/sync_category', ['auth'=>["big","big.dev"],'form_params'=>["customer_code"=>"AE0EE35EB68918BFE41722CD611FCAF9"]]);
+        echo print_r($res,true);
+        echo $res->getBody();
+        $msg = [
+            "key1" => "value1", 
+            "key2" => "value2"
+        ];         
+        RabbitMQ::publishMessage($msg, "customer.abc.test");
+    }
+    
+    
+}
 # learn
 Fork to learn
 https://www.javacodegeeks.com/2012/11/spring-3-1-loading-properties-for-xml-configuration-from-database.html
