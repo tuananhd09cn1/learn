@@ -1,4 +1,6 @@
-        "guzzlehttp/guzzle": "^6.3",
+https://www.vertex42.com/ExcelTemplates/project-planner-template.html
+
+	"guzzlehttp/guzzle": "^6.3",
         "kontoulis/rabbitmq-laravel": "^2.1",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
