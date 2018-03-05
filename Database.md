@@ -15,8 +15,8 @@ Database.
 
 - ["Laravel Raw Query"](http://fideloper.com/laravel-raw-queries)
 - ["Query Builder"](https://laravel.com/docs/5.0/queries#raw-expressions)
-- ["Query Builder"](https://laravel.com/docs/5.6/pagination)
-
+- ["Pagination"](https://laravel.com/docs/5.6/pagination)
+- ["Smart Wizard"](http://mstratman.github.io/jQuery-Smart-Wizard/smartwizard2-vertical.htm)
 
 ## Operation
 
