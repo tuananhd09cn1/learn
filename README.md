@@ -1,3 +1,8 @@
+https://github.com/sathomas/acc-wizard
+
+http://techlaboratory.net/demos/SmartWizard4/examples/smartwizard-ajax.html#step-2
+http://www.jquery-steps.com/Examples
+
 https://www.vertex42.com/ExcelTemplates/project-planner-template.html
 
 	"guzzlehttp/guzzle": "^6.3",
