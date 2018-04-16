@@ -1,3 +1,5 @@
+
+admin/secret
 https://gitlab.com/gitlab-examples/ssh-private-key
 package com.bigqsys.ad.yt;
 
