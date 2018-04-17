@@ -13,8 +13,9 @@ Database.
 ## VM
 
 - ["Openstack"](https://docs.openstack.org/mitaka/install-guide-ubuntu/)
-- ["Guideline Install Single Machine"] (https://www.ubuntu.com/download/cloud/try-openstack)
+- ["Guideline Install Single Machine"] (https://tutorials.ubuntu.com/tutorial/install-openstack-with-conjure-up#1)
 - ["Guideline Install Cluster Machine"] (https://www.ubuntu.com/download/cloud/build-openstack)
+- ["Docs Maas"](https://docs.maas.io/2.3/en)
 ## Operation
 
 
