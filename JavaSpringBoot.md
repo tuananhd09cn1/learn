@@ -14,6 +14,7 @@ Java Spring Boot.
 - [Error Handling in a REST Service with Quartz](http://juliuskrah.com/tutorial/2017/10/11/error-handling-in-a-rest-service-with-quartz/) 
 - [Spring boot project for job chaining using Quartz](https://github.com/atulmahind/job-pipeline)
 - [Quartz 2 Scheduler Example with Trigger and CronTrigger using Job, SchedulerFactory, JobDetail, CronScheduleBuilder, JobBuilder, TriggerBuilder, JobKey and JobExecutionContext] (https://github.com/atulmahind/job-pipeline)
+- [Spring Boot Trace] (spring-boot-capgemini/examples/spring-capgemini-trace-sample/)
 
 ## Dynamic Config
 
