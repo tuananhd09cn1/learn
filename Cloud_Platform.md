@@ -16,6 +16,9 @@ Database.
 - ["Guideline Install Single Machine"] (https://tutorials.ubuntu.com/tutorial/install-openstack-with-conjure-up#1)
 - ["Guideline Install Cluster Machine"] (https://www.ubuntu.com/download/cloud/build-openstack)
 - ["Docs Maas"](https://docs.maas.io/2.3/en)
+- ["Openstack Pike"](https://www.server-world.info/en/note?os=Ubuntu_16.04&p=openstack_pike2&f=1)
+- ["Openstack Queen"](https://www.server-world.info/en/note?os=Ubuntu_16.04&p=openstack_queens&f=1)
+
 ## Operation
 
 
