@@ -18,7 +18,9 @@ Database.
 - ["Docs Maas"](https://docs.maas.io/2.3/en)
 - ["Openstack Pike"](https://www.server-world.info/en/note?os=Ubuntu_16.04&p=openstack_pike2&f=1)
 - ["Openstack Queen"](https://www.server-world.info/en/note?os=Ubuntu_16.04&p=openstack_queens&f=1)
-
+https://askubuntu.com/questions/783672/how-to-install-devstack-on-ubuntu-16-04-server
+https://docs.openstack.org/devstack/latest/
+https://www.theurbanpenguin.com/installing-devstack-on-ubuntu-16-04/
 ## Operation
 
 
