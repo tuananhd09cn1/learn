@@ -1,7 +1,7 @@
 
 # Awesome Cloud Platform 
 > A curated list of awesome Cloud Platform  READMEs
-
+https://www.mirantis.com/blog/how-to-install-openstack-on-your-local-machine-using-devstack/
 Database.
 
 
