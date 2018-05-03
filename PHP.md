@@ -8,7 +8,9 @@ Ebook.
 
 
 ## Articles
+
 - ["Guzzle"](https://github.com/guzzle/guzzle.git) 
+- ["PHP-Shell-Detector"](https://github.com/emposha/PHP-Shell-Detector)
 
 ## Operation
 
