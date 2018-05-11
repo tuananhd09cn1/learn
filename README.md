@@ -1,75 +1,7 @@
 https://codelabs.developers.google.com/io2018
 admin/secret
-https://gitlab.com/gitlab-examples/ssh-private-key
-package com.bigqsys.ad.yt;
 
-import java.io.FileOutputStream;
 
-import com.voicerss.tts.AudioCodec;
-import com.voicerss.tts.AudioFormat;
-import com.voicerss.tts.Languages;
-import com.voicerss.tts.SpeechDataEvent;
-import com.voicerss.tts.SpeechDataEventListener;
-import com.voicerss.tts.SpeechErrorEvent;
-import com.voicerss.tts.SpeechErrorEventListener;
-import com.voicerss.tts.VoiceParameters;
-import com.voicerss.tts.VoiceProvider;
-
-public class Example {
-///*	   public static void main (String args[]) throws Exception {
-//	        VoiceProvider tts = new VoiceProvider("df852440cfc54e92b425fcb156dcf39f");
-//			
-//	        VoiceParameters params = new VoiceParameters("Hello, world!", Languages.English_UnitedStates);
-//	        params.setCodec(AudioCodec.WAV);
-//	        params.setFormat(AudioFormat.Format_44KHZ.AF_44khz_16bit_stereo);
-//	        params.setBase64(false);
-//	        params.setSSML(false);
-//	        params.setRate(0);
-//			
-//	        byte[] voice = tts.speech(params);
-//			
-//	        FileOutputStream fos = new FileOutputStream("voice.mp3");
-//	        fos.write(voice, 0, voice.length);
-//	        fos.flush();
-//	        fos.close();
-//	    }*/
-	   public static void main (String args[]) throws Exception {
-	        VoiceProvider tts = new VoiceProvider("df852440cfc54e92b425fcb156dcf39f");
-			
-	        VoiceParameters params = new VoiceParameters("Hello, world!", Languages.English_UnitedStates);
-	        params.setCodec(AudioCodec.WAV);
-	        params.setFormat(AudioFormat.Format_44KHZ.AF_44khz_16bit_stereo);
-	        params.setBase64(false);
-	        params.setSSML(false);
-	        params.setRate(0);
-			
-	        tts.addSpeechErrorEventListener(new SpeechErrorEventListener() {
-	            @Override
-	            public void handleSpeechErrorEvent(SpeechErrorEvent e) {
-	                System.out.print(e.getException().getMessage());
-	            }
-	        });
-			
-	        tts.addSpeechDataEventListener(new SpeechDataEventListener() {
-	            @Override
-	            public void handleSpeechDataEvent(SpeechDataEvent e) {
-	                try {
-	                    byte[] voice = (byte[])e.getData();
-						
-	                    FileOutputStream fos = new FileOutputStream("voice.mp3");
-	                    fos.write(voice, 0, voice.length);
-	                    fos.flush();
-	                    fos.close();
-	                } catch (Exception ex) {
-	                    ex.printStackTrace();
-	                }
-	            }
-	        });
-			
-	        tts.speechAsync(params);
-	    }
-}
-//http://www.voicerss.org/sdk/java.aspx
 
 
 https://github.com/sathomas/acc-wizard
