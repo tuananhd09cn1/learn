@@ -1,7 +1,7 @@
 https://codelabs.developers.google.com/io2018
 admin/secret
 
-
+https://stuff.mit.edu/afs/sipb/project/android/sdk/android-sdk-linux/tools/proguard/docs/index.html#/afs/sipb/project/android/sdk/android-sdk-linux/tools/proguard/docs/manual/examples.html
 
 
 https://github.com/sathomas/acc-wizard
