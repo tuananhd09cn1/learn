@@ -1,3 +1,5 @@
+https://quantrimang.com/huong-dan-tao-usb-boot-nhanh-94484
+
 https://codelabs.developers.google.com/io2018
 admin/secret
 
